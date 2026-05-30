@@ -1,0 +1,5 @@
+﻿Command:
+curl.exe -s -X PUT "http://127.0.0.1:5000/customer/auth/review/1?review=Excellent%20read%20for%20the%20final%20project." -H "Authorization: Bearer <token>"
+
+Output:
+{"message":"Review successfully added or updated","reviews":{"testuser":"Excellent read for the final project."}}
